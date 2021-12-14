@@ -1,3 +1,3 @@
 # CoreDemo
 
-It's .NetCore learning journey.
+It's my .NetCore learning journey.
