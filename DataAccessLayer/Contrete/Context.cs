@@ -13,7 +13,6 @@ namespace DataAccessLayer.Contrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=DESKTOP-R22KCUM\\SQLEXPRESS;database=CoreBlogDb;integrated security=true");
-
         }
 
         public DbSet<About>  Abouts{ get; set; }
