@@ -5,12 +5,9 @@
 }
 
 
-<!DOCTYPE html>
 <script src="~/lib/jquery/dist/jquery.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<html lang="zxx">
 
-<body>
     <!--//banner-->
     <section class="banner-bottom">
         <!--/blog-->
@@ -69,8 +66,10 @@
                 <aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
                     <div class="right-blog-info text-left">
                         <div class="tech-btm">
+                            <h4>Sign up to our newsletter</h4>
                             <img src="~/CoreBlogTema/images/banner1.jpg" class="img-fluid" alt="">
                         </div>
+
                         @await Html.PartialAsync("~/Views/NewsLetter/SubscribeMail.cshtml")
                         @await Component.InvokeAsync("CategoryList")
                         @await Component.InvokeAsync("LastBlogOfWriter", new { id = ViewBag.i })
@@ -123,7 +122,3 @@
         </div>
     </section>
     <!--//main-->
-
-</body>
-
-</html>

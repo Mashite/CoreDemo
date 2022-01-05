@@ -38,6 +38,12 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
+        public Writer Login(string email, string password)
+        {
+            Writer w =_writerDal.Login(email, password);
+            return w;
+        }
+
         public void Update(Writer t)
         {
             throw new NotImplementedException();

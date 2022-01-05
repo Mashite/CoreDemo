@@ -9,6 +9,6 @@ namespace BusinessLayer.Abstract
 {
     public interface IWriterService : IGenericService<Writer>
     {
-       
+        Writer Login(string email, string password);
     }
 }

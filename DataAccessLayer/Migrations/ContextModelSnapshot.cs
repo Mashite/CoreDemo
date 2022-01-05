@@ -149,9 +149,6 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("ContactContent")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("ContactDateTime")
                         .HasColumnType("datetime2");
 
@@ -164,12 +161,15 @@ namespace DataAccessLayer.Migrations
                     b.Property<bool>("ContactStatus")
                         .HasColumnType("bit");
 
+                    b.Property<string>("ContactSubject")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ContactUserName")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ContactId");
 
-                    b.ToTable("Cotacts");
+                    b.ToTable("Contacts");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.NewsLetter", b =>

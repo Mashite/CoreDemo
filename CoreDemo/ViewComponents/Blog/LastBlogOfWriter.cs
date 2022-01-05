@@ -14,8 +14,13 @@ namespace CoreDemo.ViewComponents.Blog
         public IViewComponentResult Invoke(int id)
         {
             var blog = bm.GetById(id);
-            var values = bm.GetListWithWriter(blog.WriterId);
-            return View(values);
+            if (blog != null)
+            {
+                var values = bm.GetListWithWriter(blog.WriterId);
+                return View(values);
+            }
+            else
+                return View();
         }
     }
 }

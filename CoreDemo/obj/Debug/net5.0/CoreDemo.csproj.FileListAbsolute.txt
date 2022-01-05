@@ -159,7 +159,6 @@ C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Share
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Partial3.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Blog\BlogReadAll.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Comment\PartialAddComment.cshtml.g.cs
-C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Comment\CommentListByBlog.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
@@ -171,3 +170,8 @@ C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Login
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Components\LastBlogOfWriter\Default.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\NewsLetter\SubscribeMail.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\ErrorPage\Error1.cshtml.g.cs
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\About\SocialMediaAbout.cshtml.g.cs
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\About\LastPosts.cshtml.g.cs
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Writer\Index.cshtml.g.cs

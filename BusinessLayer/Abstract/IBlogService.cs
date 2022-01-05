@@ -9,8 +9,8 @@ namespace BusinessLayer.Abstract
 {
     public interface IBlogService:IGenericService<Blog>    {
         List<Blog> GetListWithCategory();
-
         List<Blog> GetListWithWriter(int id);
+        List<Blog> GetLastByCount(int count);
     }
 }
  
