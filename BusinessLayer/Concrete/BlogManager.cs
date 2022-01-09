@@ -62,5 +62,10 @@ namespace BusinessLayer.Concrete
         {
             return _BlogDal.GetListAll().OrderByDescending(x => x.BlogId).Take(count).ToList();
         }
+
+        public List<Blog> GetLast3Blog()
+        {
+            return _BlogDal.GetListAll().OrderByDescending(p => p.BlogId).Take(3).ToList();
+        }
     }
 }

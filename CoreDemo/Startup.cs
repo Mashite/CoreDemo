@@ -27,7 +27,6 @@ namespace CoreDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSession();
             services.AddMvc(config =>
                     {
                         var policy = new AuthorizationPolicyBuilder()
@@ -60,9 +59,8 @@ namespace CoreDemo
             app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1", "?code={0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseAuthentication();
             app.UseRouting();
-            app.UseSession();   
 
             app.UseAuthorization();
 
