@@ -1,3 +1,8 @@
+C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
@@ -6,11 +11,6 @@ C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\ref\DataAc
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
-C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csprojAssemblyReference.cache
-C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
-C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
-C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
 C:\Users\masit\source\repos\CoreDemo\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll

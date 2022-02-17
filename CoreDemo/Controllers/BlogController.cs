@@ -101,6 +101,11 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult BlogEdit(Blog b)
         {
+            Blog t = bm.GetById(b.BlogId);
+            b.WriterId = t.WriterId;
+            b.BlogCreateDate = t.BlogCreateDate;
+            b.BlogStatus = t.BlogStatus;
+            bm.Update(b);
             return RedirectToAction("BlogListByWriter");
         }
     }

@@ -13,13 +13,13 @@ namespace BusinessLayer.ValidationRules
     {
         public WriterValidator()
         {
-            RuleFor(x => x.WriterName).NotEmpty().WithMessage("Writer name can't be empty!");
-            RuleFor(x => x.WriterEmail).NotEmpty().WithMessage("Writer mail can't be empty!");
-            RuleFor(x => x.WriterPassword).NotEmpty().WithMessage("Writer password can't be empty!")
-                                          .Must(IsPasswordValid).WithMessage("Parolanız en az sekiz karakter, en az bir harf ve bir sayı içermelidir!");
+            //RuleFor(x => x.WriterName).NotEmpty().WithMessage("Writer name can't be empty!");
+            //RuleFor(x => x.WriterEmail).NotEmpty().WithMessage("Writer mail can't be empty!");
+            //RuleFor(x => x.WriterPassword).NotEmpty().WithMessage("Writer password can't be empty!")
+            //                              .Must(IsPasswordValid).WithMessage("Parolanız en az sekiz karakter, en az bir harf ve bir sayı içermelidir!");
 
-            RuleFor(x => x.WriterName).MinimumLength(2).WithMessage("Writer name should be atleast 2 character!");
-            RuleFor(x=>x.WriterImage).Length(5, 20).WithMessage("Dosya yolu 5 ile 20 karakter arasında olmalıdır!");
+            //RuleFor(x => x.WriterName).MinimumLength(2).WithMessage("Writer name should be atleast 2 character!");
+            //RuleFor(x=>x.WriterImage).Length(5, 20).WithMessage("Dosya yolu 5 ile 20 karakter arasında olmalıdır!");
 
         }
 

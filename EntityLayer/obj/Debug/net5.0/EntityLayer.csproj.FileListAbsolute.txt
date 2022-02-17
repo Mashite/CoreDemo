@@ -2,7 +2,6 @@ C:\Users\masit\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.de
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
-C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csprojAssemblyReference.cache
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.cs
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\masit\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csprojAssemblyReference.cache

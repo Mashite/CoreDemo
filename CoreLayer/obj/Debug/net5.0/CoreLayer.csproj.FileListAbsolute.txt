@@ -2,7 +2,6 @@ C:\Users\masit\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.j
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\ref\CoreLayer.dll
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
-C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csprojAssemblyReference.cache
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs

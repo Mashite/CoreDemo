@@ -23,7 +23,7 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult Index(Writer p)
         {   
-            p.WiterStatus = true;
+            p.WriterStatus = true;
             p.WriterAbout = "Test";
             WriterValidator wv = new WriterValidator();
             ValidationResult vr = wv.Validate(p);
