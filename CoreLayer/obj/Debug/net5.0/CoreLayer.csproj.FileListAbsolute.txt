@@ -9,3 +9,4 @@ C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
 C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\Users\masit\source\repos\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csprojAssemblyReference.cache

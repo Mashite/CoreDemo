@@ -18,8 +18,13 @@ namespace CoreDemo.Controllers
     {
         WriterManager wm = new WriterManager(new EfWriterRepository());
        
+        [Authorize]
         public IActionResult Index()
         {
+            var username = User.Identity.Name;
+            ViewBag.v = username;
+            var usermail = wm.WriterByName(username).WriterEmail;
+            ViewBag.v2 = usermail;
             return View();
         }
         public IActionResult Test()

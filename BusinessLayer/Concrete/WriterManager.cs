@@ -49,5 +49,11 @@ namespace BusinessLayer.Concrete
         {
             _writerDal.Update(t);
         }
+
+        public Writer WriterByName(string name)
+        {
+            Writer w = _writerDal.GetListAll(x=>x.WriterName==name).FirstOrDefault();
+            return w;
+        }
     }
 }
