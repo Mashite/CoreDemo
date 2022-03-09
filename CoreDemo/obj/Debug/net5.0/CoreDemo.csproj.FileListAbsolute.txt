@@ -194,3 +194,14 @@ C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.genrunti
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\CoreDemo.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Message\Inbox.cshtml.g.cs
 C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Message\MessageDetails.cshtml.g.cs
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\BlogApiDemo.exe
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\BlogApiDemo.dll
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\bin\Debug\net5.0\BlogApiDemo.pdb
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\Shared\AdminLayout.cshtml.g.cs
+C:\Users\masit\source\repos\CoreDemo\CoreDemo\obj\Debug\net5.0\Razor\Views\EmployeeTest\Index.cshtml.g.cs
