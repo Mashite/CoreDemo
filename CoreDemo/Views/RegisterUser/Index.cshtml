@@ -1,0 +1,75 @@
+﻿@model UserSignUpViewModel
+@{
+    Layout =null;
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" />
+<body>
+    <div class="container">
+        <h3 class="tittle">Register Now</h3>
+        @*<div class="inner-sec">
+            <div class="login p-5 bg-light mx-auto mw-100">
+                <form class="m-t" role="form" asp-action="Index">
+                    <div class="form-group">
+                        <input type="text" class="form-control" asp-for="@Model.UserName" placeholder="Kullanıcı Adı" required="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" asp-for="@Model.NameSurname" placeholder="Adınız soyadınız" required="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" asp-for="@Model.Mail" placeholder="Mail adresi" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" asp-for="@Model.Password" placeholder="Şifre" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" asp-for="@Model.ConfirmPassword" placeholder="Şifre Tekrar" />
+                    </div>
+                    <button type="submit" class="btn btn-primary block full-width m-b">Register</button>
+                    <a class="btn btn-primary block full-width m-b" href="/RegisterUserController/Login/">Giriş Yap</a>
+                </form>
+
+            </div>
+        </div>*@
+
+        <div class="container">
+            <h3 class="tittle">Register Now</h3>
+            <div class="inner-sec">
+                <div class="login p-5 bg-light mx-auto mw-100">
+                    @using (Html.BeginForm("Index", "RegisterUser", FormMethod.Post))
+                    {
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">Name</label>
+                                @Html.TextBoxFor(x => x.NameSurname, new { @class = "form-control" })
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">Email</label>
+                                @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="exampleInputPassword1 mb-2">Password</label>
+                                @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="exampleInputPassword2 mb-2">Confirm Password</label>
+                                @Html.TextBoxFor(x => x.ConfirmPassword, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="exampleInputPassword1 mb-2">UserName</label>
+                                @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit mb-4">Register</button>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
